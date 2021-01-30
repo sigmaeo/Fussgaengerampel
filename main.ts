@@ -18,7 +18,7 @@ input.onButtonPressed(Button.A, function () {
     auto.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
     fuss.setPixelColor(1, neopixel.colors(NeoPixelColors.Green))
     Ampeln_zeigen()
-    basic.pause(5000)
+    basic.pause(2000)
     Ampeln_aus()
     auto.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
     fuss.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
